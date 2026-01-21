@@ -1,5 +1,3 @@
-execute unless function assassin:compasscheck run return fail
-
 scoreboard objectives add RaycastSteps dummy
 scoreboard objectives add RayHitL dummy
 scoreboard objectives add RayHitR dummy
