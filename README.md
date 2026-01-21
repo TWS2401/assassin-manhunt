@@ -1,21 +1,30 @@
 # Assassin Hunter
-A Minecraft datapack recreating the "Speedrunner vs Assassin" videos by Dream.
+A Minecraft datapack recreating the "[Speedrunner vs Assassin](https://youtu.be/ZfeNh8E3O4c)" videos by [Dream](https://www.youtube.com/@dream).  
 Hunters can kill the speedrunners in one hit, but speedrunners can freeze hunters in place just by looking at them.
 
 Using the [Tracker Compass](https://github.com/TWS2401/tracker-compass) datapack is not required, but strongly recommended.
 
 ## Installation
-- Locate your world's datapack folder
+- Download [latest release](https://github.com/TWS2401/assassin-hunter/releases)
+- Locate your world's datapack folder (`.minecraft/saves/[your_world_name]/datapacks`)
 - Place the datapack into the datapack folder
-- Enable the datapack with `/datapack enable "file/assassin-hunter.zip"`
+- Make sure the datapack is enabled by using `/datapack list`. If it isn't, enable it with `/datapack enable "file/assassin-hunter.zip"`
 
 ## How to Use
-To set the Hunters, use  
-`/team join Hunters player_name`
+To set the Hunters, use:
+```
+/team join Hunters player_name
+```
 
-To set the Runners, use  
-`/team join Runners player_name`
+To set the Runners, use:
+```
+/team join Runners player_name
+```
 
 (If using the Tracker Compass datapack)  
-To start the game and give the Hunters their compasses, use  
-`/function tracker:start`
+To start the game and give the Hunters their compasses, use:
+```
+/function tracker:start
+```
+
+More information about the compasses can be found [here](https://github.com/TWS2401/tracker-compass/blob/main/README.md).
