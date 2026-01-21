@@ -1,9 +1,9 @@
 # TEST
 # particle flame ~ ~ ~ 0 0 0 0 1 force
-particle flame ^0.35 ^ ^ 0 0 0 0 1 force
-particle flame ^-0.35 ^ ^ 0 0 0 0 1 force
-particle flame ^ ^0.35 ^ 0 0 0 0 1 force
-particle flame ^ ^-0.35 ^ 0 0 0 0 1 force
+# particle flame ^0.35 ^ ^ 0 0 0 0 1 force
+# particle flame ^-0.35 ^ ^ 0 0 0 0 1 force
+# particle flame ^ ^0.35 ^ 0 0 0 0 1 force
+# particle flame ^ ^-0.35 ^ 0 0 0 0 1 force
 
 # Clear raycasted
 tag @a remove ray_hit
