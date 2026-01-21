@@ -11,10 +11,10 @@ Using the [Tracker Compass](https://github.com/TWS2401/tracker-compass) datapack
 
 ## How to Use
 To set the Hunters, use  
-`/team join Hunters player`
+`/team join Hunters player_name`
 
 To set the Runners, use  
-`/team join Runners player`
+`/team join Runners player_name`
 
 (If using the Tracker Compass datapack)  
 To start the game and give the Hunters their compasses, use  
