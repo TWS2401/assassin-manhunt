@@ -32,4 +32,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: assassin-hunter_nightly
-          path: *.zip
+          path: assassin-hunter_nightly.zip
