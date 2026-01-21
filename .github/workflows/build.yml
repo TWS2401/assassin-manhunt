@@ -1,4 +1,4 @@
-name: Automatic builds
+name: build
 
 # Controls when the workflow will run
 on:
@@ -17,10 +17,19 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
       - name: Zip Release
         # You may pin to the exact commit or the version.
         # uses: TheDoctor0/zip-release@b57d897cb5d60cb78b51a507f63fa184cfe35554
         uses: TheDoctor0/zip-release@0.7.6
         with:
-          filename: 'assassin-hunter.zip'
+          filename: 'assassin-hunter_nightly.zip'
           exclusions: '*.git*'
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: assassin-hunter_nightly
+          path: *.zip
