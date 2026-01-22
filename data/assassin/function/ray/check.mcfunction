@@ -2,7 +2,7 @@
 
 execute if data entity @s {Health:0.0f} run return fail
 
-execute unless entity @p[team=Hunters,distance=..100] run return fail
+execute at @s unless entity @p[team=Hunters,distance=..100] run return fail
 
 # Initialize steps
 scoreboard players set @s RaycastSteps 400
