@@ -1,6 +1,6 @@
 # Assassin Manhunt
-A Minecraft datapack recreating the "[Speedrunner vs Assassin](https://youtu.be/ZfeNh8E3O4c)" videos by [Dream](https://www.youtube.com/@dream).  
-Assassins can kill the speedrunners in one hit, but speedrunners can freeze Assassins in place just by looking at them.
+A Minecraft datapack that recreates the "[Speedrunner vs Assassin](https://youtu.be/ZfeNh8E3O4c)" videos by [Dream](https://www.youtube.com/@dream).  
+Assassins can kill the speedrunners in one hit, but speedrunners can freeze assassins in place just by looking at them.
 
 Using the [Tracker Compass](https://github.com/TWS2401/tracker-compass) datapack is not required, but strongly recommended.
 
