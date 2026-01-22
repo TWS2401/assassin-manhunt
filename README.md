@@ -28,3 +28,6 @@ To start the game and give the Hunters their compasses, use:
 ```
 
 More information about the compasses can be found [here](https://github.com/TWS2401/tracker-compass/blob/main/README.md).
+
+## Attribution
+This datapack's icon uses [Twemoji](https://github.com/jdecked/twemoji) assets, which are licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
