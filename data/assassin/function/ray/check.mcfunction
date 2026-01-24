@@ -24,6 +24,9 @@ scoreboard players reset @s RayHitD
 
 execute as @s[tag=hit_block_check] at @s anchored eyes run function assassin:ray/movefine
 
+execute as @s[tag=hit_player] run effect give @s weakness 1 255 true
 execute as @s[tag=hit_player] run return 1
+
+effect clear @s weakness
 
 return fail
