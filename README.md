@@ -1,8 +1,13 @@
 # Assassin Manhunt
 A Minecraft datapack that recreates the "[Speedrunner vs Assassin](https://youtu.be/ZfeNh8E3O4c)" videos by [Dream](https://www.youtube.com/@dream).  
-Assassins can kill the speedrunners in one hit, but speedrunners can freeze assassins in place just by looking at them.
-
 Using the [Tracker Compass](https://github.com/TWS2401/tracker-compass) datapack is not required, but strongly recommended.
+
+## Rules
+Here are the rules of an Assassin Manhunt:
+- Assassins can kill speedrunners in one hit
+- Speedrunners can freeze assassins in place by looking at them
+- When a speedrunner is looking at an assassin, neither of them can hit each other
+- Using bows and other projectiles on each other are not allowed (but due to the limitations of datapacks this isn't enforced)
 
 ## Installation
 - Download [latest release](https://github.com/TWS2401/assassin-manhunt/releases)
