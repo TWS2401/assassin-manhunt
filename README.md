@@ -8,7 +8,7 @@ Using the [Tracker Compass](https://github.com/TWS2401/tracker-compass) datapack
 - Download [latest release](https://github.com/TWS2401/assassin-manhunt/releases)
 - Locate your world's datapack folder (`.minecraft/saves/[your_world_name]/datapacks`)
 - Place the datapack into the datapack folder
-- Make sure the datapack is enabled by using `/datapack list`. If it isn't, enable it with `/datapack enable "file/assassin-manhunt_(version_number).zip"`
+- Make sure the datapack is enabled by using `/datapack list`. If it isn't, enable it with `/datapack enable "file/assassin-manhunt-(version_number).zip"`
 
 ## How to Use
 To set the assassins, use:
@@ -22,7 +22,7 @@ To set the speedrunners, use:
 ```
 
 (If using the Tracker Compass datapack)  
-To start the game and give the assassins their compasses, use:
+To give the assassins their compasses, use:
 ```
 /function tracker:start
 ```
